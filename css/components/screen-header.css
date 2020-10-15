@@ -25,3 +25,16 @@
   height: 7px;
   border-radius: 50%;
 }
+
+@keyframes rotatecog {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 0.1s ease-in-out infinite;
+}
