@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코코아톡 클론에 오신 것을 환영합니다.</title>
+</head>
+<body>
+  <!-- 상태바 시작-->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>서비스 불가지역</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>39%</span>
+      <i class="fas fa-battery-quarter fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  <!-- 상태바 끝 -->
+
+  <!-- 메인 문구 시작 -->
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">코코아톡 클론에 오신것을<br>환영합니다</h1>
+    <p class="welcome-header__text">코코아톡 클론 계정이 있으시다면<br>이메일이나 휴대전화 번호로 로그인하세요</p>
+  </header>
+  <!-- 메인 문구 끝 -->
+  
+  <!-- INPUT 시작 -->
+  <form action="friends.html"method="get" id="login-form">
+    <input name="username" type="text" placeholder="이메일 또는 휴대전화 번호">
+    <input name="password" type="password" placeholder="비밀번호">
+    <input type="submit" value="로그인">
+    <a href="#">코코아 계정 또는 비밀번호 찾기</a>
+  </form>
+  <!-- INPUT 끝 -->
+  <script src="https://kit.fontawesome.com/efcfaf14ca.js" crossorigin="anonymous"></script>
+</body>
+</html>
