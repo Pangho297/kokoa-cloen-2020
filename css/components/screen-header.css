@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .screen-header__title {
@@ -18,8 +18,8 @@
 
 .screen-header__dot {
   position: absolute;
-  right: 20px;
-  top: 63px;
+  right: 22px;
+  top: 49px;
   background-color: tomato;
   width: 7px;
   height: 7px;
